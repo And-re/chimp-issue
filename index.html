@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Sample Test</title>
+</head>
+
+<body>
+<script>
+    function clearForm() {
+        console.log('clearForm');
+        document.getElementById('username').value = '';
+        document.getElementById('password').value = '';
+    }
+</script>
+
+<input type="text" id="username">
+<input type="password" id="password">
+<button onclick="clearForm()">Clear</button>
+
+</body>
+
+</html>
